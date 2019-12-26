@@ -37,8 +37,8 @@ def start ( pathi, pathinp, lang ):
 	inp = open (pathinp, "r")
 	# print(file.read())
 
-	Username = "codingalways"
-	Password = "aliveisawesome"
+	Username = ""
+	Password = ""
 	driver = setup (Username, Password)
 
 	url = "https://codeforces.com/problemset/customtest"
